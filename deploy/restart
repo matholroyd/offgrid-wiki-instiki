@@ -1,3 +1,5 @@
 #!/bin/sh
 touch tmp/restart.txt
+rm -fr ./cache
+
 echo "restarting Passenger app"
