@@ -1,4 +1,7 @@
 source "http://rubygems.org"
+
+gem "unicorn"
+
 gem "sqlite3", :require => "sqlite3"
 gem "itextomml", ">=1.5.1"
 gem "rack", ">=1.1.3"
