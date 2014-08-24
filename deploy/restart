@@ -1,5 +1,7 @@
 #!/bin/sh
-touch tmp/restart.txt
-rm -fr ./cache
 
-echo "restarting Passenger app"
+/etc/init.d/instiki_unicorn stop
+rm -fr ./cache
+/etc/init.d/instiki_unicorn start
+
+echo "restarting unicorn app"
