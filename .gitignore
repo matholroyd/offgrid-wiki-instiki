@@ -1,1 +1,6 @@
 secret
+*.sqlite3
+log
+tmp
+cache
+vendor/bundle
